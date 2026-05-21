@@ -10,6 +10,8 @@ Sockets Links.
 4. Send and receive the message using the send function in socket.
 ## PROGRAM
 client:
+
+
 import socket
 
 s = socket.socket()
@@ -27,7 +29,11 @@ while True:
     print("Server >", s.recv(1024).decode())
 
 s.close()
+
+
 server:
+
+
 import socket
 
 s = socket.socket()
